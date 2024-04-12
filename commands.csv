@@ -1,0 +1,123 @@
+Command,Token,BASIC version
+NEW,00,all
+CON(TINUE),01,all
+LIST,02,all
+BYE,03,all
+NUM(BER),04,all
+OLD,05,all
+RES(EQUENCE),06,all
+SAVE,07,all
+MERGE,08,Extended BASIC
+EDIT,09,TI BASIC
+ELSE,81,all
+::,82,Extended BASIC
+!,83,Extended BASIC
+IF,84,all
+GO,85,all
+GOTO,86,all
+GOSUB,87,all
+RETURN,88,all
+DEF,89,all
+DIM,8a,all
+END,8b,all
+FOR,8c,all
+LET,8d,all
+BREAK,8e,all
+UNBREAK,8f,all
+TRACE,90,all
+UNTRACE,91,all
+INPUT,92,all
+DATA,93,all
+RESTORE,94,all
+RANDOMIZE,95,all
+NEXT,96,all
+READ,97,all
+STOP,98,all
+DELETE,99,all
+REM,9a,all
+ON,9b,all
+PRINT,9c,all
+CALL,9d,all
+OPTION,9e,all
+OPEN,9f,all
+CLOSE,a0,all
+SUB,a1,all (after GO) Extended BASIC
+DISPLAY,a2,all
+IMAGE,a3,Extended BASIC
+ACCEPT,a4,Extended BASIC
+ERROR,a5,Extended BASIC
+WARNING,a6,Extended BASIC
+SUBEXIT,a7,Extended BASIC
+SUBEND,a8,Extended BASIC
+RUN,a9,all
+LINPUT,aa,Extended BASIC
+THEN,b0,all
+TO,b1,all
+STEP,b2,all
+",",b3,all
+;,b4,all
+:,b5,all
+),b6,all
+(,b7,all
+&,b8,all
+OR,ba,Extended BASIC
+AND,bb,Extended BASIC
+XOR,bc,Extended BASIC
+NOT,bd,Extended BASIC
+=,be,all
+<,bf,all
+>,c0,all
++,c1,all
+-,c2,all
+*,c3,all
+/,c4,all
+^,c5,all
+Quoted string,c7,all
+Unquoted string,c8,all
+Line number,c9,all
+EOF,ca,all
+ABS,cb,all
+ATN,cc,all
+COS,cd,all
+EXP,ce,all
+INT,cf,all
+LOG,d0,all
+SGN,d1,all
+SIN,d2,all
+SQR,d3,all
+TAN,d4,all
+LEN,d5,all
+CHR$,d6,all
+RND,d7,all
+SEG$,d8,all
+POS,d9,all
+VAL,da,all
+STR$,db,all
+ASC,dc,all
+PI,dd,Extended BASIC
+REC,de,all
+MAX,df,Extended BASIC
+MIN,e0,Extended BASIC
+RPT$,e1,Extended BASIC
+NUMERIC,e8,Extended BASIC
+DIGIT,e9,Extended BASIC
+UALPHA,ea,Extended BASIC
+SIZE,eb,Extended BASIC
+ALL,ec,Extended BASIC
+USING,ed,Extended BASIC
+BEEP,ee,Extended BASIC
+ERASE,ef,Extended BASIC
+AT,f0,Extended BASIC
+BASE,f1,all
+VARIABLE,f3,all
+RELATIVE,f4,all
+INTERNAL,f5,all
+SEQUENTIAL,f6,all
+OUTPUT,f7,all
+UPDATE,f8,all
+APPEND,f9,all
+FIXED,fa,all
+PERMANENT,fb,all
+TAB,fc,all
+#,fd,all
+VALIDATE,fe,Extended BASIC
